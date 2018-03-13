@@ -1,0 +1,52 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompactSerializer", "CompactSerializer\CompactSerializer.csproj", "{01BBA7B1-5244-405E-95A0-24621B2A2EE1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SourcesForIL", "SourcesForIL\SourcesForIL.csproj", "{242385AC-15A0-4956-B752-68542DE74CC4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SerializationTests", "SerializationTests\SerializationTests.csproj", "{8B39CA7A-E6CA-4D20-A1A2-EF4B02821705}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MesureSerialization", "MeasureSerialization\MeasureSerialization.csproj", "{A53744C5-F600-4302-8478-50F7E0C5BFE5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{01BBA7B1-5244-405E-95A0-24621B2A2EE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01BBA7B1-5244-405E-95A0-24621B2A2EE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01BBA7B1-5244-405E-95A0-24621B2A2EE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01BBA7B1-5244-405E-95A0-24621B2A2EE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{242385AC-15A0-4956-B752-68542DE74CC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{242385AC-15A0-4956-B752-68542DE74CC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{242385AC-15A0-4956-B752-68542DE74CC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{242385AC-15A0-4956-B752-68542DE74CC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B39CA7A-E6CA-4D20-A1A2-EF4B02821705}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B39CA7A-E6CA-4D20-A1A2-EF4B02821705}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B39CA7A-E6CA-4D20-A1A2-EF4B02821705}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B39CA7A-E6CA-4D20-A1A2-EF4B02821705}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A53744C5-F600-4302-8478-50F7E0C5BFE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A53744C5-F600-4302-8478-50F7E0C5BFE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A53744C5-F600-4302-8478-50F7E0C5BFE5}.Debug|x64.ActiveCfg = Debug|x64
+		{A53744C5-F600-4302-8478-50F7E0C5BFE5}.Debug|x64.Build.0 = Debug|x64
+		{A53744C5-F600-4302-8478-50F7E0C5BFE5}.Debug|x86.ActiveCfg = Debug|x86
+		{A53744C5-F600-4302-8478-50F7E0C5BFE5}.Debug|x86.Build.0 = Debug|x86
+		{A53744C5-F600-4302-8478-50F7E0C5BFE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A53744C5-F600-4302-8478-50F7E0C5BFE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A53744C5-F600-4302-8478-50F7E0C5BFE5}.Release|x64.ActiveCfg = Release|x64
+		{A53744C5-F600-4302-8478-50F7E0C5BFE5}.Release|x64.Build.0 = Release|x64
+		{A53744C5-F600-4302-8478-50F7E0C5BFE5}.Release|x86.ActiveCfg = Release|x86
+		{A53744C5-F600-4302-8478-50F7E0C5BFE5}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
