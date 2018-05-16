@@ -6,7 +6,7 @@ Reflection is not considered a fast mechanism, and calling Type.GetProperties() 
 The compilation of emitted code can take a while, but if the system runs for a long time, that delay will be fully compensated by the performance increase of following saving/restoring operations.
 <br/>
 <br/>
-For the initial implementation, only simple property types are supported, without classes, structures, circular references etc, simple containers and Nullable. The exact list of supported types is::
+For the initial implementation, only simple property types are supported, without classes, structures, circular references etc, but including simple containers and Nullable. The exact list of supported types is::
 <ol>
   <li>byte</li>
   <li>bool</li>
@@ -25,7 +25,7 @@ For the initial implementation, only simple property types are supported, withou
 For some of them getting bytes representation is trivial, such as calling Guid.ToByteArray() or BitConverter.GetBytes(value), for other more complex logic had to be applied.
 <br/>
 <br/>
-This implementation was compared to System.Runtime.Serialization.Formatters.Binary.BinaryFormatter and Newtonsoft JsonSerializer on performance speed and representation bytes count. When run with object of the kind it was designed for, even pure Reflection version performed faster, than these two serializers. In compactness, surely, both Reflection and Reflection.Emit realizations were superior to library analogue.
+This implementation was compared to System.Runtime.Serialization.Formatters.Binary.BinaryFormatter and Newtonsoft JsonSerializer on performance speed and representation bytes count. When run with object of the kind it was designed for, even pure Reflection version performed faster, than these two serializers. In compactness, surely, both Reflection and Reflection.Emit realizations were superior to library analogs.
 <br/>The exact experiment results were like this:
 <br/>
 <br/>
